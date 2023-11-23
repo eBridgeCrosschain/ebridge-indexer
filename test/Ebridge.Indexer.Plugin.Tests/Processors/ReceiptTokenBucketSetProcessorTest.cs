@@ -38,11 +38,11 @@ public class ReceiptTokenBucketSetProcessorTest : EbridgeIndexerPluginTestBase
         {
             BlockHash = blockHash,
             BlockHeight = blockHeight,
-            Confirmed = false,
+            Confirmed = true,
             PreviousBlockHash = previousBlockHash,
         };
         var blockStateSetKey = await InitializeBlockStateSetAsync(blockStateSet, chainId);
-
+        
         //step2: create logEventInfo
         /*{
             "Symbol":"ELF",

@@ -1,14 +1,36 @@
 using AElfIndexer.Client;
+using AElfIndexer.Client.Providers;
+using AElfIndexer.Grains;
+using AElfIndexer.Grains.Grain.Client;
 using AElfIndexer.Grains.State.Client;
 using Ebridge.Indexer.Plugin.Entities;
 using GraphQL;
 using Nest;
+using Orleans;
 using Volo.Abp.ObjectMapping;
 
 namespace Ebridge.Indexer.Plugin.GraphQL;
 
 public partial class Query
 {
+    [Name("syncState")]
+    public static async Task<SyncStateDto> SyncStateAsync(
+        [FromServices] IClusterClient clusterClient, 
+        [FromServices] IAElfIndexerClientInfoProvider clientInfoProvider,
+        GetSyncStateDto dto)
+    {
+        var version = clientInfoProvider.GetVersion();
+        var clientId = clientInfoProvider.GetClientId();
+        var blockStateSetInfoGrain =
+            clusterClient.GetGrain<IBlockStateSetInfoGrain>(
+                GrainIdHelper.GenerateGrainId("BlockStateSetInfo", clientId, dto.ChainId, version));
+        var confirmedHeight = await blockStateSetInfoGrain.GetConfirmedBlockHeight(dto.FilterType);
+        return new SyncStateDto
+        {
+            ConfirmedBlockHeight = confirmedHeight
+        };
+    }
+    
     [Name("queryCrossChainLimitInfos")]
     public static async Task<CrossChainLimitInfoPageResultDto> QueryCrossChainLimitInfosAsync(
         [FromServices] IAElfIndexerClientEntityRepository<CrossChainLimitInfoIndex, LogEventInfo> repository,

@@ -7,7 +7,7 @@
         <Configuration>
           <Format>cobertura</Format>
           <Exclude>[xunit.*]*,[*Tests]*</Exclude> <!-- [Assembly-Filter]Type-Filter -->
-          <ExcludeByFile>**/test/**/*.cs,**/src/Ebridge.Indexer.Plugin/Generated/*.cs,**/src/Ebridge.Indexer.Plugin/Entities/*.cs,**/src/Ebridge.Indexer.Plugin/enums/*.cs,**/src/Ebridge.Indexer.Plugin/GraphQL/*.cs,**/src/Ebridge.Indexer.Plugin/*.cs</ExcludeByFile>
+          <ExcludeByFile>**/test/**/*.cs,**/src/EbridgeIndexer/Contracts/*.cs</ExcludeByFile>
           <ExcludeByAttribute>Obsolete,GeneratedCodeAttribute</ExcludeByAttribute>
           <SingleHit>false</SingleHit>
         </Configuration>

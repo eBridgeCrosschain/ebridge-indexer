@@ -69,8 +69,6 @@ namespace AElf.Standards.ACS11 {
       }
     }
     #endregion
-
-
   }
 }
 #endregion

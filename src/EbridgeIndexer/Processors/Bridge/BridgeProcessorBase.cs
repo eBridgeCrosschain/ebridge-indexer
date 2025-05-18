@@ -2,9 +2,9 @@ using AeFinder.Sdk.Processor;
 using AElf.CSharp.Core;
 using Volo.Abp.ObjectMapping;
 
-namespace EbridgeIndexer.Processors.CrossChainLimit;
+namespace EbridgeIndexer.Processors.Bridge;
 
-public abstract class CrossChainLimitProcessorBase<TEvent>  : LogEventProcessorBase<TEvent>
+public abstract class BridgeProcessorBase<TEvent>  : LogEventProcessorBase<TEvent>
     where TEvent : IEvent<TEvent>, new()
 {
     protected IObjectMapper ObjectMapper => LazyServiceProvider.LazyGetRequiredService<IObjectMapper>();

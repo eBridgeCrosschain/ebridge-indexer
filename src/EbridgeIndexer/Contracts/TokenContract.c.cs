@@ -200,8 +200,6 @@ namespace AElf.Contracts.MultiToken {
       {
         Symbol = Symbol,
         Amount = Amount,
-        Payer = Payer,
-        Receiver = Receiver,
       };
     }
   }
@@ -246,7 +244,6 @@ namespace AElf.Contracts.MultiToken {
         IsBurnable = IsBurnable,
         IssueChainId = IssueChainId,
         ExternalInfo = ExternalInfo,
-        Owner = Owner,
       };
     }
   }
@@ -337,64 +334,6 @@ namespace AElf.Contracts.MultiToken {
       {
         Symbol = Symbol,
         ExternalInfo = ExternalInfo,
-      };
-    }
-  }
-
-  public partial class TransactionFeeDelegationAdded : aelf::IEvent<TransactionFeeDelegationAdded>
-  {
-    public global::System.Collections.Generic.IEnumerable<TransactionFeeDelegationAdded> GetIndexed()
-    {
-      return new List<TransactionFeeDelegationAdded>
-      {
-      new TransactionFeeDelegationAdded
-      {
-        Delegator = Delegator
-      },
-      new TransactionFeeDelegationAdded
-      {
-        Delegatee = Delegatee
-      },
-      new TransactionFeeDelegationAdded
-      {
-        Caller = Caller
-      },
-      };
-    }
-
-    public TransactionFeeDelegationAdded GetNonIndexed()
-    {
-      return new TransactionFeeDelegationAdded
-      {
-      };
-    }
-  }
-
-  public partial class TransactionFeeDelegationCancelled : aelf::IEvent<TransactionFeeDelegationCancelled>
-  {
-    public global::System.Collections.Generic.IEnumerable<TransactionFeeDelegationCancelled> GetIndexed()
-    {
-      return new List<TransactionFeeDelegationCancelled>
-      {
-      new TransactionFeeDelegationCancelled
-      {
-        Delegator = Delegator
-      },
-      new TransactionFeeDelegationCancelled
-      {
-        Delegatee = Delegatee
-      },
-      new TransactionFeeDelegationCancelled
-      {
-        Caller = Caller
-      },
-      };
-    }
-
-    public TransactionFeeDelegationCancelled GetNonIndexed()
-    {
-      return new TransactionFeeDelegationCancelled
-      {
       };
     }
   }

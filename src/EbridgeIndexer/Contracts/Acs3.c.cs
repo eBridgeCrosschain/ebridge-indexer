@@ -263,7 +263,7 @@ namespace AElf.Standards.ACS3 {
       }
     }
     #endregion
-
+    
   }
 }
 #endregion

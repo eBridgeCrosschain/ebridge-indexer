@@ -109,6 +109,50 @@ namespace AElf.Contracts.CrossChain {
     }
   }
 
+  public partial class SideChainIndexed : aelf::IEvent<SideChainIndexed>
+  {
+    public global::System.Collections.Generic.IEnumerable<SideChainIndexed> GetIndexed()
+    {
+      return new List<SideChainIndexed>
+      {
+      new SideChainIndexed
+      {
+        ChainId = ChainId
+      },
+      };
+    }
+
+    public SideChainIndexed GetNonIndexed()
+    {
+      return new SideChainIndexed
+      {
+        IndexedHeight = IndexedHeight,
+      };
+    }
+  }
+
+  public partial class ParentChainIndexed : aelf::IEvent<ParentChainIndexed>
+  {
+    public global::System.Collections.Generic.IEnumerable<ParentChainIndexed> GetIndexed()
+    {
+      return new List<ParentChainIndexed>
+      {
+      new ParentChainIndexed
+      {
+        ChainId = ChainId
+      },
+      };
+    }
+
+    public ParentChainIndexed GetNonIndexed()
+    {
+      return new ParentChainIndexed
+      {
+        IndexedHeight = IndexedHeight,
+      };
+    }
+  }
+
   #endregion
 }
 #endregion

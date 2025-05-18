@@ -1,10 +1,11 @@
 using AeFinder.Sdk.Processor;
 using EBridge.Contracts.Bridge;
 using EbridgeIndexer.Entities;
+using EbridgeIndexer.Processors.Bridge;
 
 namespace EbridgeIndexer.Processors.CrossChainLimit;
 
-public class SwapDailyLimitSetProcessor : CrossChainLimitProcessorBase<SwapDailyLimitSet>
+public class SwapDailyLimitSetProcessor : BridgeProcessorBase<SwapDailyLimitSet>
 {
     public override async Task ProcessAsync(SwapDailyLimitSet logEvent, LogEventContext context)
     {

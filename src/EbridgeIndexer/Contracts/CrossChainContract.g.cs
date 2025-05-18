@@ -86,53 +86,56 @@ namespace AElf.Contracts.CrossChain {
             "ZXhpbmdGZWVDb250cm9sbGVyQ2hhbmdlZBIXCghjaGFpbl9pZBgBIAEoBUIF",
             "iI/1AQESJgoOYXV0aG9yaXR5X2luZm8YAiABKAsyDi5BdXRob3JpdHlJbmZv",
             "OgSguxgBIjkKJUFjY2VwdENyb3NzQ2hhaW5JbmRleGluZ1Byb3Bvc2FsSW5w",
-            "dXQSEAoIY2hhaW5faWQYASABKAUqTwogQ3Jvc3NDaGFpbkluZGV4aW5nUHJv",
-            "cG9zYWxTdGF0dXMSEAoMTk9OX1BST1BPU0VEEAASCwoHUEVORElORxABEgwK",
-            "CEFDQ0VQVEVEEAIqTwoPU2lkZUNoYWluU3RhdHVzEgkKBUZBVEFMEAASCgoG",
-            "QUNUSVZFEAESFQoRSU5ERVhJTkdfRkVFX0RFQlQQAhIOCgpURVJNSU5BVEVE",
-            "EAMy3g0KEkNyb3NzQ2hhaW5Db250cmFjdBJDCgpJbml0aWFsaXplEhsuQ3Jv",
-            "c3NDaGFpbi5Jbml0aWFsaXplSW5wdXQaFi5nb29nbGUucHJvdG9idWYuRW1w",
-            "dHkiABJXCixTZXRJbml0aWFsU2lkZUNoYWluTGlmZXRpbWVDb250cm9sbGVy",
-            "QWRkcmVzcxINLmFlbGYuQWRkcmVzcxoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0",
-            "eSIAEk4KI1NldEluaXRpYWxJbmRleGluZ0NvbnRyb2xsZXJBZGRyZXNzEg0u",
-            "YWVsZi5BZGRyZXNzGhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5IgASTgoiQ2hh",
-            "bmdlQ3Jvc3NDaGFpbkluZGV4aW5nQ29udHJvbGxlchIOLkF1dGhvcml0eUlu",
-            "Zm8aFi5nb29nbGUucHJvdG9idWYuRW1wdHkiABJNCiFDaGFuZ2VTaWRlQ2hh",
-            "aW5MaWZldGltZUNvbnRyb2xsZXISDi5BdXRob3JpdHlJbmZvGhYuZ29vZ2xl",
-            "LnByb3RvYnVmLkVtcHR5IgASdwokQ2hhbmdlU2lkZUNoYWluSW5kZXhpbmdG",
-            "ZWVDb250cm9sbGVyEjUuQ3Jvc3NDaGFpbi5DaGFuZ2VTaWRlQ2hhaW5JbmRl",
-            "eGluZ0ZlZUNvbnRyb2xsZXJJbnB1dBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0",
-            "eSIAEm8KIEFjY2VwdENyb3NzQ2hhaW5JbmRleGluZ1Byb3Bvc2FsEjEuQ3Jv",
-            "c3NDaGFpbi5BY2NlcHRDcm9zc0NoYWluSW5kZXhpbmdQcm9wb3NhbElucHV0",
-            "GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5IgASSAoTR2V0U2lkZUNoYWluQ3Jl",
-            "YXRvchIbLmdvb2dsZS5wcm90b2J1Zi5JbnQzMlZhbHVlGg0uYWVsZi5BZGRy",
-            "ZXNzIgWIifcBARJWCg5HZXRDaGFpblN0YXR1cxIbLmdvb2dsZS5wcm90b2J1",
-            "Zi5JbnQzMlZhbHVlGiAuQ3Jvc3NDaGFpbi5HZXRDaGFpblN0YXR1c091dHB1",
-            "dCIFiIn3AQESVQoSR2V0U2lkZUNoYWluSGVpZ2h0EhsuZ29vZ2xlLnByb3Rv",
-            "YnVmLkludDMyVmFsdWUaGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZSIF",
-            "iIn3AQESUgoUR2V0UGFyZW50Q2hhaW5IZWlnaHQSFi5nb29nbGUucHJvdG9i",
-            "dWYuRW1wdHkaGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZSIFiIn3AQES",
-            "TgoQR2V0UGFyZW50Q2hhaW5JZBIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRob",
-            "Lmdvb2dsZS5wcm90b2J1Zi5JbnQzMlZhbHVlIgWIifcBARJWChNHZXRTaWRl",
-            "Q2hhaW5CYWxhbmNlEhsuZ29vZ2xlLnByb3RvYnVmLkludDMyVmFsdWUaGy5n",
-            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZSIFiIn3AQESXgobR2V0U2lkZUNo",
-            "YWluSW5kZXhpbmdGZWVEZWJ0EhsuZ29vZ2xlLnByb3RvYnVmLkludDMyVmFs",
-            "dWUaGy5nb29nbGUucHJvdG9idWYuSW50NjRWYWx1ZSIFiIn3AQESZwoZR2V0",
-            "SW5kZXhpbmdQcm9wb3NhbFN0YXR1cxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0",
-            "eRorLkNyb3NzQ2hhaW4uR2V0SW5kZXhpbmdQcm9wb3NhbFN0YXR1c091dHB1",
-            "dCIFiIn3AQESXwocR2V0U2lkZUNoYWluSW5kZXhpbmdGZWVQcmljZRIbLmdv",
-            "b2dsZS5wcm90b2J1Zi5JbnQzMlZhbHVlGhsuZ29vZ2xlLnByb3RvYnVmLklu",
-            "dDY0VmFsdWUiBYiJ9wEBEk8KHkdldFNpZGVDaGFpbkxpZmV0aW1lQ29udHJv",
-            "bGxlchIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoOLkF1dGhvcml0eUluZm8i",
-            "BYiJ9wEBElAKH0dldENyb3NzQ2hhaW5JbmRleGluZ0NvbnRyb2xsZXISFi5n",
-            "b29nbGUucHJvdG9idWYuRW1wdHkaDi5BdXRob3JpdHlJbmZvIgWIifcBARJX",
-            "CiFHZXRTaWRlQ2hhaW5JbmRleGluZ0ZlZUNvbnRyb2xsZXISGy5nb29nbGUu",
-            "cHJvdG9idWYuSW50MzJWYWx1ZRoOLkF1dGhvcml0eUluZm8iBYiJ9wEBGjay",
-            "zPYBMUFFbGYuQ29udHJhY3RzLkNyb3NzQ2hhaW4uQ3Jvc3NDaGFpbkNvbnRy",
-            "YWN0U3RhdGVCHKoCGUFFbGYuQ29udHJhY3RzLkNyb3NzQ2hhaW5iBnByb3Rv",
-            "Mw=="));
+            "dXQSEAoIY2hhaW5faWQYASABKAUiSQoQU2lkZUNoYWluSW5kZXhlZBIXCghj",
+            "aGFpbl9pZBgBIAEoBUIFiI/1AQESFgoOaW5kZXhlZF9oZWlnaHQYAiABKAM6",
+            "BKC7GAEiSwoSUGFyZW50Q2hhaW5JbmRleGVkEhcKCGNoYWluX2lkGAEgASgF",
+            "QgWIj/UBARIWCg5pbmRleGVkX2hlaWdodBgCIAEoAzoEoLsYASpPCiBDcm9z",
+            "c0NoYWluSW5kZXhpbmdQcm9wb3NhbFN0YXR1cxIQCgxOT05fUFJPUE9TRUQQ",
+            "ABILCgdQRU5ESU5HEAESDAoIQUNDRVBURUQQAipPCg9TaWRlQ2hhaW5TdGF0",
+            "dXMSCQoFRkFUQUwQABIKCgZBQ1RJVkUQARIVChFJTkRFWElOR19GRUVfREVC",
+            "VBACEg4KClRFUk1JTkFURUQQAzLeDQoSQ3Jvc3NDaGFpbkNvbnRyYWN0EkMK",
+            "CkluaXRpYWxpemUSGy5Dcm9zc0NoYWluLkluaXRpYWxpemVJbnB1dBoWLmdv",
+            "b2dsZS5wcm90b2J1Zi5FbXB0eSIAElcKLFNldEluaXRpYWxTaWRlQ2hhaW5M",
+            "aWZldGltZUNvbnRyb2xsZXJBZGRyZXNzEg0uYWVsZi5BZGRyZXNzGhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5IgASTgojU2V0SW5pdGlhbEluZGV4aW5nQ29u",
+            "dHJvbGxlckFkZHJlc3MSDS5hZWxmLkFkZHJlc3MaFi5nb29nbGUucHJvdG9i",
+            "dWYuRW1wdHkiABJOCiJDaGFuZ2VDcm9zc0NoYWluSW5kZXhpbmdDb250cm9s",
+            "bGVyEg4uQXV0aG9yaXR5SW5mbxoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eSIA",
+            "Ek0KIUNoYW5nZVNpZGVDaGFpbkxpZmV0aW1lQ29udHJvbGxlchIOLkF1dGhv",
+            "cml0eUluZm8aFi5nb29nbGUucHJvdG9idWYuRW1wdHkiABJ3CiRDaGFuZ2VT",
+            "aWRlQ2hhaW5JbmRleGluZ0ZlZUNvbnRyb2xsZXISNS5Dcm9zc0NoYWluLkNo",
+            "YW5nZVNpZGVDaGFpbkluZGV4aW5nRmVlQ29udHJvbGxlcklucHV0GhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5IgASbwogQWNjZXB0Q3Jvc3NDaGFpbkluZGV4",
+            "aW5nUHJvcG9zYWwSMS5Dcm9zc0NoYWluLkFjY2VwdENyb3NzQ2hhaW5JbmRl",
+            "eGluZ1Byb3Bvc2FsSW5wdXQaFi5nb29nbGUucHJvdG9idWYuRW1wdHkiABJI",
+            "ChNHZXRTaWRlQ2hhaW5DcmVhdG9yEhsuZ29vZ2xlLnByb3RvYnVmLkludDMy",
+            "VmFsdWUaDS5hZWxmLkFkZHJlc3MiBYiJ9wEBElYKDkdldENoYWluU3RhdHVz",
+            "EhsuZ29vZ2xlLnByb3RvYnVmLkludDMyVmFsdWUaIC5Dcm9zc0NoYWluLkdl",
+            "dENoYWluU3RhdHVzT3V0cHV0IgWIifcBARJVChJHZXRTaWRlQ2hhaW5IZWln",
+            "aHQSGy5nb29nbGUucHJvdG9idWYuSW50MzJWYWx1ZRobLmdvb2dsZS5wcm90",
+            "b2J1Zi5JbnQ2NFZhbHVlIgWIifcBARJSChRHZXRQYXJlbnRDaGFpbkhlaWdo",
+            "dBIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRobLmdvb2dsZS5wcm90b2J1Zi5J",
+            "bnQ2NFZhbHVlIgWIifcBARJOChBHZXRQYXJlbnRDaGFpbklkEhYuZ29vZ2xl",
+            "LnByb3RvYnVmLkVtcHR5GhsuZ29vZ2xlLnByb3RvYnVmLkludDMyVmFsdWUi",
+            "BYiJ9wEBElYKE0dldFNpZGVDaGFpbkJhbGFuY2USGy5nb29nbGUucHJvdG9i",
+            "dWYuSW50MzJWYWx1ZRobLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZhbHVlIgWI",
+            "ifcBARJeChtHZXRTaWRlQ2hhaW5JbmRleGluZ0ZlZURlYnQSGy5nb29nbGUu",
+            "cHJvdG9idWYuSW50MzJWYWx1ZRobLmdvb2dsZS5wcm90b2J1Zi5JbnQ2NFZh",
+            "bHVlIgWIifcBARJnChlHZXRJbmRleGluZ1Byb3Bvc2FsU3RhdHVzEhYuZ29v",
+            "Z2xlLnByb3RvYnVmLkVtcHR5GisuQ3Jvc3NDaGFpbi5HZXRJbmRleGluZ1By",
+            "b3Bvc2FsU3RhdHVzT3V0cHV0IgWIifcBARJfChxHZXRTaWRlQ2hhaW5JbmRl",
+            "eGluZ0ZlZVByaWNlEhsuZ29vZ2xlLnByb3RvYnVmLkludDMyVmFsdWUaGy5n",
+            "b29nbGUucHJvdG9idWYuSW50NjRWYWx1ZSIFiIn3AQESTwoeR2V0U2lkZUNo",
+            "YWluTGlmZXRpbWVDb250cm9sbGVyEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5",
+            "Gg4uQXV0aG9yaXR5SW5mbyIFiIn3AQESUAofR2V0Q3Jvc3NDaGFpbkluZGV4",
+            "aW5nQ29udHJvbGxlchIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoOLkF1dGhv",
+            "cml0eUluZm8iBYiJ9wEBElcKIUdldFNpZGVDaGFpbkluZGV4aW5nRmVlQ29u",
+            "dHJvbGxlchIbLmdvb2dsZS5wcm90b2J1Zi5JbnQzMlZhbHVlGg4uQXV0aG9y",
+            "aXR5SW5mbyIFiIn3AQEaNrLM9gExQUVsZi5Db250cmFjdHMuQ3Jvc3NDaGFp",
+            "bi5Dcm9zc0NoYWluQ29udHJhY3RTdGF0ZUIcqgIZQUVsZi5Db250cmFjdHMu",
+            "Q3Jvc3NDaGFpbmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] {global::AElf.OptionsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor },
+          new pbr::FileDescriptor[] { global::AElf.Standards.ACS7.Acs7Reflection.Descriptor, global::AElf.OptionsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::AuthorityInfoReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::AElf.Contracts.CrossChain.CrossChainIndexingProposalStatus), typeof(global::AElf.Contracts.CrossChain.SideChainStatus), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.InitializeInput), global::AElf.Contracts.CrossChain.InitializeInput.Parser, new[]{ "ParentChainId", "CreationHeightOnParentChain", "IsPrivilegePreserved" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.SideChainCreatedEvent), global::AElf.Contracts.CrossChain.SideChainCreatedEvent.Parser, new[]{ "Creator", "ChainId" }, null, null, null, null),
@@ -149,7 +152,9 @@ namespace AElf.Contracts.CrossChain {
             new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.SideChainLifetimeControllerChanged), global::AElf.Contracts.CrossChain.SideChainLifetimeControllerChanged.Parser, new[]{ "AuthorityInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.CrossChainIndexingControllerChanged), global::AElf.Contracts.CrossChain.CrossChainIndexingControllerChanged.Parser, new[]{ "AuthorityInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.SideChainIndexingFeeControllerChanged), global::AElf.Contracts.CrossChain.SideChainIndexingFeeControllerChanged.Parser, new[]{ "ChainId", "AuthorityInfo" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.AcceptCrossChainIndexingProposalInput), global::AElf.Contracts.CrossChain.AcceptCrossChainIndexingProposalInput.Parser, new[]{ "ChainId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.AcceptCrossChainIndexingProposalInput), global::AElf.Contracts.CrossChain.AcceptCrossChainIndexingProposalInput.Parser, new[]{ "ChainId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.SideChainIndexed), global::AElf.Contracts.CrossChain.SideChainIndexed.Parser, new[]{ "ChainId", "IndexedHeight" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::AElf.Contracts.CrossChain.ParentChainIndexed), global::AElf.Contracts.CrossChain.ParentChainIndexed.Parser, new[]{ "ChainId", "IndexedHeight" }, null, null, null, null)
           }));
     }
     #endregion
@@ -3239,6 +3244,320 @@ namespace AElf.Contracts.CrossChain {
             break;
           case 8: {
             ChainId = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SideChainIndexed : pb::IMessage<SideChainIndexed> {
+    private static readonly pb::MessageParser<SideChainIndexed> _parser = new pb::MessageParser<SideChainIndexed>(() => new SideChainIndexed());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SideChainIndexed> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::AElf.Contracts.CrossChain.CrossChainContractReflection.Descriptor.MessageTypes[16]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SideChainIndexed() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SideChainIndexed(SideChainIndexed other) : this() {
+      chainId_ = other.chainId_;
+      indexedHeight_ = other.indexedHeight_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SideChainIndexed Clone() {
+      return new SideChainIndexed(this);
+    }
+
+    /// <summary>Field number for the "chain_id" field.</summary>
+    public const int ChainIdFieldNumber = 1;
+    private int chainId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ChainId {
+      get { return chainId_; }
+      set {
+        chainId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "indexed_height" field.</summary>
+    public const int IndexedHeightFieldNumber = 2;
+    private long indexedHeight_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long IndexedHeight {
+      get { return indexedHeight_; }
+      set {
+        indexedHeight_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SideChainIndexed);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SideChainIndexed other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ChainId != other.ChainId) return false;
+      if (IndexedHeight != other.IndexedHeight) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ChainId != 0) hash ^= ChainId.GetHashCode();
+      if (IndexedHeight != 0L) hash ^= IndexedHeight.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ChainId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ChainId);
+      }
+      if (IndexedHeight != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(IndexedHeight);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ChainId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ChainId);
+      }
+      if (IndexedHeight != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(IndexedHeight);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SideChainIndexed other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ChainId != 0) {
+        ChainId = other.ChainId;
+      }
+      if (other.IndexedHeight != 0L) {
+        IndexedHeight = other.IndexedHeight;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ChainId = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            IndexedHeight = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ParentChainIndexed : pb::IMessage<ParentChainIndexed> {
+    private static readonly pb::MessageParser<ParentChainIndexed> _parser = new pb::MessageParser<ParentChainIndexed>(() => new ParentChainIndexed());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ParentChainIndexed> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::AElf.Contracts.CrossChain.CrossChainContractReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ParentChainIndexed() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ParentChainIndexed(ParentChainIndexed other) : this() {
+      chainId_ = other.chainId_;
+      indexedHeight_ = other.indexedHeight_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ParentChainIndexed Clone() {
+      return new ParentChainIndexed(this);
+    }
+
+    /// <summary>Field number for the "chain_id" field.</summary>
+    public const int ChainIdFieldNumber = 1;
+    private int chainId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ChainId {
+      get { return chainId_; }
+      set {
+        chainId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "indexed_height" field.</summary>
+    public const int IndexedHeightFieldNumber = 2;
+    private long indexedHeight_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long IndexedHeight {
+      get { return indexedHeight_; }
+      set {
+        indexedHeight_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ParentChainIndexed);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ParentChainIndexed other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ChainId != other.ChainId) return false;
+      if (IndexedHeight != other.IndexedHeight) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ChainId != 0) hash ^= ChainId.GetHashCode();
+      if (IndexedHeight != 0L) hash ^= IndexedHeight.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ChainId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ChainId);
+      }
+      if (IndexedHeight != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(IndexedHeight);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ChainId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ChainId);
+      }
+      if (IndexedHeight != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(IndexedHeight);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ParentChainIndexed other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ChainId != 0) {
+        ChainId = other.ChainId;
+      }
+      if (other.IndexedHeight != 0L) {
+        IndexedHeight = other.IndexedHeight;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ChainId = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            IndexedHeight = input.ReadInt64();
             break;
           }
         }
